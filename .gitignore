@@ -1,0 +1,19 @@
+# ========= Python / uv 后端 =========
+backend/b/.venv/
+backend/b/__pycache__/
+backend/b/routers/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ========= Next.js 前端 =========
+frontend/f/node_modules/
+frontend/f/.next/
+frontend/f/next-env.d.ts
+
+# ========= 通用杂项 =========
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local
