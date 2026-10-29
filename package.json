@@ -1,0 +1,26 @@
+{
+  "name": "pituresformatfactory",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/0umaShuu/formatfactory#readme",
+  "bugs": {
+    "url": "https://github.com/0umaShuu/formatfactory/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0umaShuu/formatfactory.git"
+  },
+  "license": "ISC",
+  "author": "Mea",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:backend": "cd backend && cd b && uv run fastapi dev",
+    "dev:frontend": "cd frontend && cd f && npm run dev",
+    "dev": "npm-run-all --parallel dev:backend dev:frontend"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
