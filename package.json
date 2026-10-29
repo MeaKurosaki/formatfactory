@@ -17,7 +17,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:backend": "cd backend && cd b && uv run fastapi dev",
-    "dev:frontend": "cd frontend && cd f && npm run dev",
+    "dev:frontend": "cd frontend && cd f && npm install && npm run dev",
     "dev": "npm-run-all --parallel dev:backend dev:frontend"
   },
   "dependencies": {
